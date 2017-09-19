@@ -60,6 +60,18 @@ npm install
 npm run dev
 ```
 
+## 演示效果图
+
+![image](https://github.com/songhaoreact/vue-better-picker/master/blog/demo.gif)
+
+## 说明
+
+vue-better-picker 组件来自better-scroll，底层是better-scroll实现的
+
+
+
+
+
 
 
 

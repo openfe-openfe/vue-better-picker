@@ -5,14 +5,16 @@
 
 ## 代码演示如何使用
 
-1.npm install vue-better-picker --save
+```shell
+npm install vue-better-picker --save
 
-2.
+```
+
 ```html
 <div class="select" @click="showPicker(1)" ref="select1">{{ selectedText }}</div>
-      <picker @select="handleSelect(1,arguments)" :data="data" :selected-index="selectedIndex[1]"
-              ref="picker1" :title="title" :cancelTxt="cancelTxt"
-              :confirmTxt="confirmTxt"></picker>
+<picker @select="handleSelect(1,arguments)" :data="data"
+        ref="picker1" :title="title" :cancelTxt="cancelTxt":confirmTxt="confirmTxt">
+</picker>
 
 ```
 ```js
@@ -43,7 +45,7 @@ export default {
       }
     },
     components: {
-      Picker,
+      Picker
     }
   }
 ```

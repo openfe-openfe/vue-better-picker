@@ -54,8 +54,8 @@ export default {
 ## 组件演示demo
 
 ```js
-git clone https://github.com/songhaoreact/vue-better-slider.git
-cd vue-better-slier
+git clone https://github.com/songhaoreact/vue-better-picker.git
+cd vue-better-picker
 npm install 
 npm run dev
 ```

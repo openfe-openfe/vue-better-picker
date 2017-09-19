@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node build/server.js",
-    "compile": "node build/compile.js"
+    "compile": "node build/compile.js && npm publish ./vue-better-picker"
   },
   "author": "songhao",
   "license": "MIT",

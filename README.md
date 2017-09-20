@@ -9,7 +9,11 @@
 npm install vue-better-picker --save
 
 ```
+```js
 
+import {Picker} from 'vue-better-picker'
+
+```
 ```html
 <div class="select" @click="showPicker(1)" ref="select1">{{ selectedText }}</div>
 <picker @select="handleSelect(1,arguments)" :data="data"

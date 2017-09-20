@@ -21,6 +21,7 @@ import {Picker} from 'vue-better-picker'
 </picker>
 
 ```
+以三列选择器为例, demo如下
 ```js
 export default {
     data() {
